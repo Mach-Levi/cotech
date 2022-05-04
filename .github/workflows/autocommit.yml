@@ -28,16 +28,16 @@ jobs:
           git config --local user.name "Mach-Levi"
           git add -A
           
-          arr[0]="chore(bot): 😂 auto commit"
-          arr[1]="chore(bot): 😱 auto commit"
-          arr[2]="chore(bot): 👿 auto commit"
-          arr[3]="chore(bot): 💩 auto commit"
-          arr[4]="chore(bot): 🙏 auto commit"
-          arr[5]="chore(bot): 🙈 auto commit"
-          arr[6]="chore(bot): 🐐 auto commit"
-          arr[7]="chore(bot): 🤖 auto commit"
-          arr[8]="chore(bot): 🟩 auto commit"
-          arr[9]="chore(bot): 👻 auto commit"
+          arr[0]="update the datafiles"
+          arr[1]="update the date."
+          arr[2]="Create the update file"
+          arr[3]="eliminate the unnecessary files"
+          arr[4]="Adjust the yml file"
+          arr[5]="Adjust the message "
+          arr[6]="add all changes"
+          arr[7]="the text file"
+          arr[8]="remove all"
+          arr[9]="final change"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
